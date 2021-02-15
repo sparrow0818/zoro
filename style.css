@@ -1,0 +1,820 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+
+	min-height:100vh;
+	font-family: sans-serif;
+	color:white;
+	text-align:center;
+	background-color:black
+	
+	
+	
+
+}
+
+.top {
+  position: fixed;
+  
+
+}
+
+.first {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+ 
+
+	
+}
+
+.first h1 {
+  color: #ccf
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.items a {
+  margin-left:10px;
+  font-size:25px;
+  text-decoration: none;
+  color: white;
+  padding: 0px 30px; 
+}
+
+.items a:hover {
+	border:1px solid white;
+	border-radius:15px;
+	background:rgba(235, 235, 232, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+	-webkit-backdrop-filter: blur(18px);
+	backdrop-filter: blur(18px);
+	color: #f2ffcc;
+
+	
+}
+
+.nba {
+	position:absolute;
+	margin-top:20px;
+	margin-left:40px;
+	height:60px;
+	 width:68px;
+	 font-size: 25px;
+	 color: #ccf;
+}
+
+.web1 p {
+	
+	font-family: sans-serif;
+	text-align:center;
+	color:white;
+	font-size:120px;
+	float: left;
+	margin-left:80px;
+	margin-top:80px;
+	display:block;
+	
+
+	
+}
+
+.web1 .rightimg{
+	margin-top: 50px;
+	float:center	;
+	min-width:100px;
+	min-height:100px;
+	
+
+}
+
+.web1 .bio {
+	text-decoration: justify;
+	text-align:right-side;
+	font-size:20px;
+}
+.web1 {
+  background-color:black ;
+}
+.web1 input {
+	background-color: transparent;
+	color: white;
+	padding:10px 10px 10px 10px;
+	border-radius:1px solid;
+	border-radius:5px;
+	border-color: white;
+	font-family: sans-serif;
+	text-align:center;
+	font-size:20px;
+	float: left;
+	margin-left:80px;
+	margin-top:80px;
+	display:block;
+   min-width: 200px;
+}
+.web1 input:hover{
+	border:1px solid white;
+	border-radius:15px;
+	background:rgba(235, 232, 232, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+	-webkit-backdrop-filter: blur(18px);
+	backdrop-filter: blur(18px);
+	color: #f2ffcc;
+}
+ .arrow-btn{
+	 position:fixed;
+	 bottom: 40px;
+	 right: 39px;
+	 color:white;
+ }
+ 
+.arrow-btn a{
+	height:40px;
+	width:39px;
+	background:white;
+	border-radius: 3px;
+}
+ 
+.me{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	text-align:center; 
+}
+.playoff{
+	width: 1000px;
+	border-radius: 30px;
+	border:1px solid whitesmoke;
+	background:rgba(63, 63, 62, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(3px);
+	 color: white;
+	 float: center;
+	 position:center;
+	margin:auto;
+	font-family: sans-serif;
+	padding-bottom: 30px;
+	padding-top:20px;
+}
+.nikola{
+	text-align: justify;
+	float: left;
+	width: 500px;
+	height: 610px;
+	border-radius: 30px;
+	border:1px solid whitesmoke;
+	background:rgba(63, 63, 62, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(3px);
+	margin-left: 80px;
+	align-items: center;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	position: relative;
+
+}
+.nikola p{
+	color: white;
+	font-family: sans-serif;
+}
+.harden{
+	position: relative;
+	text-align: justify;
+	float:right;
+	width: 500px;
+	height: 610px;
+	border-radius: 30px;
+	border:1px solid whitesmoke;
+	background:rgba(63, 63, 62, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(3px);
+	margin-right: 80px;
+	align-items: center;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+
+}
+.harden p{
+	color:white;
+	font-family: sans-serif;
+}
+.curry{
+	text-align: justify;
+	float: left;
+	height: 610px;
+	width: 500px;
+	border-radius: 30px;
+	border:1px solid whitesmoke;
+	background:rgba(63, 63, 62, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(3px);
+	margin-left: 80px;
+	align-items: center;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	position: relative;
+	margin-top: 30px;
+
+}
+.curry p{
+	color: white;
+	font-family: sans-serif;
+}
+.lliard{
+	text-align: justify;
+	float: right;
+	height: 610px;
+	width: 500px;
+	border-radius: 30px;
+	border:1px solid whitesmoke;
+	background:rgba(63, 63, 62, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(3px);
+	margin-right: 80px;
+	align-items: center;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	position: relative;
+	margin-top: 30px;
+
+}
+.lliard p{
+	color: white;
+	font-family: sans-serif;
+}
+.durant{
+	text-align: justify;
+	float: left;
+	height: 610px;
+	width: 500px;
+	border-radius: 30px;
+	border:1px solid whitesmoke;
+	background:rgba(63, 63, 62, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(3px);
+	margin-left: 80px;
+	align-items: center;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	position: relative;
+	margin-top: 30px;
+
+}
+.durant p{
+	color: white;
+	font-family: sans-serif;
+}
+.kawhi{
+	text-align: justify;
+	float: right;
+	height: 610px;
+	width: 500px;
+	border-radius: 30px;
+	border:1px solid whitesmoke;
+	background:rgba(63, 63, 62, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(3px);
+	margin-right: 80px;
+	align-items: center;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	position: relative;
+	margin-top: 30px;
+
+}
+.kawhi p{
+	color: white;
+	font-family: sans-serif;
+}
+.luka{
+		text-align: justify;
+		float: left;
+		height: 610px;
+		width: 500px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-left: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.luka p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.giannis{
+		text-align: justify;
+		float: right;
+		height: 610px;
+		width: 500px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-right: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.giannis p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.davis{
+		text-align: justify;
+		float: left;
+		height: 610px;
+		width: 500px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-left: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.davis p{
+		color: white;
+		font-family: sans-serif;
+	}
+	
+	.lebron{
+		text-align: justify;
+		float: right;
+		height: 610px;
+		width: 500px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-right: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.lebron p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.utah{
+		text-align: justify;
+		float: left;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-left: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.utah p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.la{
+		text-align: justify;
+		float: right;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-right: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.la p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.clippers{
+		text-align: justify;
+		float: left;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-left: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.clippers p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.spurs{
+		text-align: justify;
+		float: right;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-right: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.spurs p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.suns{
+		text-align: justify;
+		float: left;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-left: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.suns p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.denver{
+		text-align: justify;
+		float: right;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-right: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.denver p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.blazers{
+		text-align: justify;
+		float: left;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-left: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.blazers p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.gs{
+		text-align: justify;
+		float: right;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-right: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.gs p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.rockets{
+		text-align: justify;
+		float: left;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-left: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.rockets p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.memphis{
+		text-align: justify;
+		float: right;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-right: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.memphis p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.kings{
+		text-align: justify;
+		float: left;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-left: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.kings p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.pelicians{
+		text-align: justify;
+		float: right;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-right: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.pelicians p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.okc{
+		text-align: justify;
+		float: left;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-left: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.okc p{
+		color: white;
+		font-family: sans-serif;
+	}
+
+	.mavericks{
+		text-align: justify;
+		float: right;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-right: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.mavericks p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.wolves{
+		text-align: justify;
+		float: left;
+		height: 550px;
+		width: 550px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		margin-left: 80px;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+	.wolves p{
+		color: white;
+		font-family: sans-serif;
+	}
+	.highlights{
+		text-align: justify;
+		margin: auto;
+		
+		width: 850px;
+		border-radius: 30px;
+		border:1px solid whitesmoke;
+		background:rgba(63, 63, 62, 0.2);
+		box-shadow: 0 8px 32 0px  rgba(31, 38, 135, 0.37);
+		-webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
+		align-items: center;
+		align-items: center;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 30px;
+		position: relative;
+		
+	
+	}
+	.highlights h2{
+		color: white;
+		font-family: sans-serif;
+		text-align: center;
+	}
